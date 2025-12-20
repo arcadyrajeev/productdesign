@@ -4,35 +4,67 @@ import React from "react";
 
 const FintechClarityPatternSection = () => {
   return (
-    <section className="w-full bg-white">
-      <div className="max-w-5xl text-center lg:text-left mx-auto px-6 sm:px-10 lg:px-24 py-32">
+    <section className="w-full bg-neutral-50">
+      <div
+        className="
+          max-w-5xl mx-auto
+          px-6 sm:px-18 md:px-18 lg:px-24
+          py-8 sm:py-20 lg:py-32
+          text-center lg:text-left
+        "
+      >
         {/* Eyebrow */}
-        <p className="text-xs tracking-wide text-neutral-500 mb-10">
+        <p className="text-xs tracking-wide text-neutral-500 mb-8 sm:mb-10">
           A recurring pattern in fintech
         </p>
 
         {/* Primary Statement */}
-        <h2 className="text-4xl  sm:text-5xl  heading tracking-tight text-primary-text max-w-3xl leading-tight">
+        <h2
+          className="
+            text-2xl sm:text-3xl lg:text-5xl
+            heading
+            tracking-tight
+            text-primary-text
+            max-w-3xl
+            mx-auto lg:mx-0
+            leading-tight
+          "
+        >
           Most fintech products don’t fail.
           <br />
           They become hard to explain.
         </h2>
 
         {/* Intentional Pause */}
-        <div className="h-24" />
+        <div className="h-16 sm:h-20 lg:h-24" />
 
         {/* Secondary Thought */}
-        <p className="max-w-3xl text-lg text-neutral-700 leading-relaxed">
+        <p
+          className="
+            max-w-3xl
+            mx-auto lg:mx-0
+            text-base sm:text-lg
+            text-neutral-700
+            leading-relaxed
+          "
+        >
           Internally, the system is coherent. Decisions were made carefully.
           Trade-offs are understood. Over time, that coherence becomes harder to
           communicate externally, and friction accumulates quietly.
         </p>
 
         {/* Concept Blocks */}
-        <div className="mt-32 space-y-24 max-w-3xl">
+        <div
+          className="
+            mt-24 sm:mt-28 lg:mt-32
+            space-y-20 sm:space-y-22 lg:space-y-24
+            max-w-3xl
+            mx-auto lg:mx-0
+          "
+        >
           {/* Block 1 */}
           <div>
-            <h3 className="text-sm font-semibold text-neutral-900 mb-4">
+            <h3 className="text-sm font-semibold text-neutral-900 mb-3">
               Product signals
             </h3>
             <p className="text-neutral-700 leading-relaxed">
@@ -43,7 +75,7 @@ const FintechClarityPatternSection = () => {
 
           {/* Block 2 */}
           <div>
-            <h3 className="text-sm font-semibold text-neutral-900 mb-4">
+            <h3 className="text-sm font-semibold text-neutral-900 mb-3">
               Narrative drift
             </h3>
             <p className="text-neutral-700 leading-relaxed">
@@ -53,7 +85,7 @@ const FintechClarityPatternSection = () => {
 
           {/* Block 3 */}
           <div>
-            <h3 className="text-sm font-semibold text-neutral-900 mb-4">
+            <h3 className="text-sm font-semibold text-neutral-900 mb-3">
               Metrics without meaning
             </h3>
             <p className="text-neutral-700 leading-relaxed">
@@ -64,7 +96,7 @@ const FintechClarityPatternSection = () => {
 
           {/* Block 4 */}
           <div>
-            <h3 className="text-sm font-semibold text-neutral-900 mb-4">
+            <h3 className="text-sm font-semibold text-neutral-900 mb-3">
               Trust lag
             </h3>
             <p className="text-neutral-700 leading-relaxed">
@@ -74,7 +106,15 @@ const FintechClarityPatternSection = () => {
         </div>
 
         {/* Closing Reflection */}
-        <p className="mt-32 max-w-3xl text-neutral-600 italic">
+        <p
+          className="
+            mt-24 sm:mt-28 lg:mt-32
+            max-w-3xl
+            mx-auto lg:mx-0
+            text-neutral-600
+            italic
+          "
+        >
           When clarity breaks, progress slows — even if nothing is technically
           wrong.
         </p>

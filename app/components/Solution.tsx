@@ -4,8 +4,8 @@ import React from "react";
 
 const HowIWorkFocusSection = () => {
   return (
-    <section className="w-full bg-white">
-      <div className="max-w-5xl mx-auto px-6 sm:px-10 lg:px-24 py-32">
+    <section className="w-full bg-neutral-50">
+      <div className="max-w-5xl mx-auto px-6 sm:px-10 lg:px-24  py-16 lg:py-32">
         {/* Right-aligned container */}
         <div className="ml-auto max-w-3xl text-center lg:text-right">
           {/* Eyebrow */}
@@ -14,7 +14,7 @@ const HowIWorkFocusSection = () => {
           </p>
 
           {/* Primary Statement */}
-          <h2 className="text-4xl sm:text-5xl  heading tracking-tight text-primary-text leading-tight">
+          <h2 className="text-2xl sm:text-4xl lg:text-5xl  heading tracking-tight text-primary-text leading-tight">
             Hit hard at the point where
             <br />
             product, narrative, and trust intersect.

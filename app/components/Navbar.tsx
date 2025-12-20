@@ -28,7 +28,7 @@ const Navbar = () => {
         flex justify-center md:justify-between
         items-center
         px-4 md:px-10 lg:px-[7.5rem]
-        h-16 md:h-20
+        py-6 lg:py-8
     
       "
     >
@@ -61,7 +61,7 @@ const Navbar = () => {
                   block
                   rounded-full
                   px-4 py-2 lg:px-6
-                  text-sm lg:text-base
+                  text-sm md:text-xs lg:text-base
                   font-medium
                   transition-colors duration-200
                   ${

@@ -23,10 +23,11 @@ const ProjectCard = ({
       className="
         flex flex-col lg:flex-row
         w-full
+        
         border border-neutral-300/90
         rounded-2xl
         overflow-hidden
-        bg-white
+       
       "
     >
       {/* LEFT CONTENT */}
@@ -74,13 +75,13 @@ const ProjectCard = ({
       <div
         className="
           w-full lg:w-1/2
-          bg-neutral-200/90
+          bg-gray-200/50
           flex items-center justify-center
-          px-6 py-10
-          sm:px-10 sm:py-14
+          px-4 py-6 lg:py-16
+          
         "
       >
-        <div className="relative w-full max-w-xl aspect-[16/10]">
+        <div className="relative w-full aspect-[16/10]">
           <Image
             src={imageUrl}
             alt={`${title} case study preview`}

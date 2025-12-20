@@ -5,8 +5,8 @@ import Link from "next/link";
 
 const FinalCTASection = () => {
   return (
-    <section className="w-full bg-white">
-      <div className="max-w-6xl mx-auto px-6 sm:px-10 lg:px-24 py-24">
+    <section className="w-full bg-neutral-50">
+      <div className="max-w-6xl mx-auto px-6 sm:px-10 lg:px-24 py-8 lg:py-24">
         <div
           className="
             w-full
@@ -26,14 +26,14 @@ const FinalCTASection = () => {
             "
           >
             {/* Heading */}
-            <h2 className="text-2xl sm:text-3xl font-medium tracking-tight text-neutral-900 max-w-xl">
+            <h2 className="text-2xl sm:text-4xl heading  tracking-tight text-neutral-900 max-w-xl">
               If the problem feels familiar,
               <br className="hidden sm:block" />a conversation usually helps.
             </h2>
 
             {/* CTA */}
           </div>
-          <div className="w-full justify-center lg:justify-end flex">
+          <div className="w-full justify-center lg:justify-end flex mt-6">
             {" "}
             <Link
               href="/contact"

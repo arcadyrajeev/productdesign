@@ -1,5 +1,7 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
+import Link from "next/link";
+import { ArrowUpRight } from "lucide-react";
 
 const ProjectSection = () => {
   return (
@@ -34,9 +36,9 @@ const ProjectSection = () => {
           "
         >
           <ProjectCard
-            title="Rupeeflow"
-            description="A comprehensive financial management platform for small businesses."
-            imageUrl="/images/mac1.png"
+            title="Product & narrative design | Rupeeflow"
+            description="Aligning product logic, user flows, and business narrative for a high-friction cross-border payments platform."
+            imageUrl="/images/rupeeflow-product.png"
             caseStudyLink="/case-studies/rupeeflow"
             points={[
               "User-friendly interface",
@@ -46,9 +48,9 @@ const ProjectSection = () => {
           />
 
           <ProjectCard
-            title="Pitch Design & Investor Narrative — RupeeFlow"
+            title="Pitch Design & Investor Narrative - RupeeFlow"
             description="Investor-facing pitch deck and narrative design focused on clarity, assumptions, and market framing."
-            imageUrl="/images/mac1.png"
+            imageUrl="/images/rupeeflow-pitch.png"
             caseStudyLink="/case-studies/pitch1"
             points={[
               "Assumption-driven market framing",
@@ -56,6 +58,15 @@ const ProjectSection = () => {
               "Reduced investor ambiguity",
             ]}
           />
+        </div>
+        <div className=" my-14 flex items-center justify-center">
+          <Link
+            href={"/case-studies"}
+            className="heading text-primary-text  font-medium hover:text-accent hover:underline py-2 px-4 underline-offset-5 transition-colors"
+          >
+            View All Case Studies
+            <ArrowUpRight size={20} className="inline-block ml-2 mb-1" />
+          </Link>
         </div>
       </div>
     </section>

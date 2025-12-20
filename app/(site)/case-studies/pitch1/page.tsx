@@ -13,19 +13,19 @@ export const metadata: Metadata = {
 export default function RupeeFlowPitchCaseStudy() {
   const images = [
     {
-      src: "/cases/rf-pitch3.png",
+      src: "/cases/rf-pitch1.png",
       alt: "TAM SAM SOM market sizing logic",
     },
     {
-      src: "/cases/rf-pitch4.png",
+      src: "/cases/rf-pitch3.png",
       alt: "High friction serviceable market analysis",
     },
     {
-      src: "/cases/rf-pitch5.png",
+      src: "/cases/rf-pitch4.png",
       alt: "Initial beachhead market definition",
     },
     {
-      src: "/cases/rf-pitch6.png",
+      src: "/cases/rf-pitch5.png",
       alt: "Initial beachhead market definition",
     },
   ];
