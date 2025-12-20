@@ -6,8 +6,8 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
 export const metadata: Metadata = {
-  title: "Fintech & SaaS Designer - Rajeev",
-  description: "Building clarity for Fintech and SaaS Products and Platfrom ",
+  title: "Fintech Product & Narrative partner - Rajeev",
+  description: "Building clarity for Fintech and SaaS Products and Platform ",
 };
 
 export default function RootLayout({
