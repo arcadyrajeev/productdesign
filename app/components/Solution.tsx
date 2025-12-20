@@ -4,10 +4,15 @@ import React from "react";
 
 const HowIWorkFocusSection = () => {
   return (
-    <section className="w-full bg-neutral-50">
-      <div className="max-w-5xl mx-auto px-6 sm:px-10 lg:px-24  py-16 lg:py-32">
+    <section className="w-full box-border bg-neutral-50">
+      <div
+        className="max-w-5xl mx-auto
+          px-6 sm:px-18 md:px-18 lg:px-24
+          py-8 sm:py-20 lg:py-32
+          text-center lg:text-left"
+      >
         {/* Right-aligned container */}
-        <div className="ml-auto max-w-3xl text-center lg:text-right">
+        <div className=" max-w-3xl text-center lg:text-right">
           {/* Eyebrow */}
           <p className="text-xs tracking-wide text-neutral-500 mb-10">
             Where I focus

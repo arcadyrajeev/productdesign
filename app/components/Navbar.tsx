@@ -27,7 +27,7 @@ const Navbar = () => {
         fixed z-50 w-full
         flex justify-center md:justify-between
         items-center
-        px-4 md:px-10 lg:px-[7.5rem]
+        px-6 sm:px-4 md:px-10 lg:px-[7.5rem]
         py-6 lg:py-8
     
       "
@@ -60,8 +60,8 @@ const Navbar = () => {
                 className={`
                   block
                   rounded-full
-                  px-4 py-2 lg:px-6
-                  text-sm md:text-xs lg:text-base
+                  px-2 md:px-4 py-1 md:py-2 lg:px-6
+                  text-xs md:text-xs lg:text-base
                   font-medium
                   transition-colors duration-200
                   ${

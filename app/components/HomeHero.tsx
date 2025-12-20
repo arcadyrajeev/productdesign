@@ -4,7 +4,7 @@ import HeroGraphic from "./HeroGraphic";
 const HomeHero = () => {
   return (
     <div className="bg-neutral-50  w-full p-4 lg:p-24">
-      <h1 className="heading text-5xl md:text-5xl lg:text-7xl text-primary-text  px-3 mt-22 lg:mt-16 w-full lg:w-[60%]">
+      <h1 className="heading text-5xl md:text-6xl lg:text-7xl text-primary-text  px-3 mt-22 lg:mt-16 w-full lg:w-[60%]">
         Make your business legible to{" "}
         <span className="text-accent">Capital</span>
       </h1>
