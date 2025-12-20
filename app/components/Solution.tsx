@@ -14,8 +14,8 @@ const HowIWorkFocusSection = () => {
           </p>
 
           {/* Primary Statement */}
-          <h2 className="text-4xl sm:text-5xl font-semibold tracking-tight text-neutral-900 leading-tight">
-            I work at the point where
+          <h2 className="text-4xl sm:text-5xl  heading tracking-tight text-primary-text leading-tight">
+            Hit hard at the point where
             <br />
             product, narrative, and trust intersect.
           </h2>

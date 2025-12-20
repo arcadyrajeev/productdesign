@@ -33,7 +33,7 @@ const FinalCTASection = () => {
 
             {/* CTA */}
           </div>
-          <div className="w-full justify-end flex">
+          <div className="w-full justify-center lg:justify-end flex">
             {" "}
             <Link
               href="/contact"

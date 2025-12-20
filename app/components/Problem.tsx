@@ -5,14 +5,14 @@ import React from "react";
 const FintechClarityPatternSection = () => {
   return (
     <section className="w-full bg-white">
-      <div className="max-w-5xl mx-auto px-6 sm:px-10 lg:px-24 py-32">
+      <div className="max-w-5xl text-center lg:text-left mx-auto px-6 sm:px-10 lg:px-24 py-32">
         {/* Eyebrow */}
         <p className="text-xs tracking-wide text-neutral-500 mb-10">
           A recurring pattern in fintech
         </p>
 
         {/* Primary Statement */}
-        <h2 className="text-4xl sm:text-5xl font-semibold tracking-tight text-neutral-900 max-w-3xl leading-tight">
+        <h2 className="text-4xl  sm:text-5xl  heading tracking-tight text-primary-text max-w-3xl leading-tight">
           Most fintech products don’t fail.
           <br />
           They become hard to explain.
