@@ -23,6 +23,7 @@ const FintechClarityPatternSection = () => {
           className="
             text-xl sm:text-2xl md:text-3xl lg:text-5xl
             heading
+            font-medium
             tracking-tight
             text-primary-text
             max-w-3xl
@@ -115,7 +116,7 @@ const FintechClarityPatternSection = () => {
             italic
           "
         >
-          When clarity breaks, progress slows — even if nothing is technically
+          When clarity breaks, progress slows, even if nothing is technically
           wrong.
         </p>
       </div>
