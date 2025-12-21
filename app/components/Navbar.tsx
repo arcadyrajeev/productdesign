@@ -47,7 +47,7 @@ const Navbar = () => {
           backdrop-blur-lg
           border border-neutral-50
           rounded-full
-          p-[2vw] lg:p-2
+          p-[1.6vw] lg:p-2
         "
       >
         {links.map((link) => {
@@ -60,7 +60,7 @@ const Navbar = () => {
                 className={`
                   block
                   rounded-full
-                  px-[2.5vw] md:px-4 py-1 md:py-2 lg:px-6
+                  px-[2.5vw] md:px-4 py-[1.4vw] md:py-2 lg:px-6
                   text-[3.5vw] sm:text-xs md:text-md  lg:text-base
                   font-medium
                   transition-colors duration-200

@@ -32,7 +32,7 @@ export default function RupeeFlowPitchCaseStudy() {
   return (
     <main className="bg-neutral-50 pt-12 text-neutral-900 heading">
       {/* HERO */}
-      <section className="max-w-6xl mx-auto px-4 md:px-10 lg:px-30 pt-24 pb-20">
+      <section className="max-w-6xl mx-auto px-6 md:px-12 lg:px-[7.5rem] pt-24 pb-20">
         <header className="max-w-4xl">
           <h1 className="text-3xl md:text-4xl font-medium heading tracking-tight">
             Pitch Design & Investor Narrative - RupeeFlow
@@ -86,7 +86,7 @@ export default function RupeeFlowPitchCaseStudy() {
       </section>
 
       {/* CONTEXT */}
-      <section className="max-w-6xl mx-auto px-4 md:px-10 lg:px-30 py-8 border-t border-neutral-200">
+      <section className="max-w-6xl mx-auto px-6 md:px-12 lg:px-[7.5rem] py-8 border-t border-neutral-200">
         <h2 className="text-2xl font-medium tracking-tight">Context</h2>
 
         <div className="mt-6 max-w-3xl space-y-4 body-font text-neutral-700 leading-relaxed">
@@ -104,7 +104,7 @@ export default function RupeeFlowPitchCaseStudy() {
       </section>
 
       {/* REAL PROBLEM */}
-      <section className="max-w-6xl mx-auto px-4 md:px-10 lg:px-30 py-20 border-t border-neutral-200">
+      <section className="max-w-6xl mx-auto px-6 md:px-12 lg:px-[7.5rem] py-20 border-t border-neutral-200">
         <h2 className="text-2xl font-medium tracking-tight">
           The Real Problem
         </h2>
@@ -125,7 +125,7 @@ export default function RupeeFlowPitchCaseStudy() {
       </section>
 
       {/* DESIGN PHILOSOPHY */}
-      <section className="max-w-6xl mx-auto px-4 md:px-10 lg:px-30 py-20 border-t border-neutral-200">
+      <section className="max-w-6xl mx-auto px-6 md:px-12 lg:px-[7.5rem] py-20 border-t border-neutral-200">
         <h2 className="text-2xl font-medium tracking-tight">
           Design Philosophy
         </h2>
@@ -147,7 +147,7 @@ export default function RupeeFlowPitchCaseStudy() {
       </section>
 
       {/* MARKET & ASSUMPTIONS */}
-      <section className="max-w-6xl mx-auto px-4 md:px-10 lg:px-30 py-4 border-t border-neutral-200">
+      <section className="max-w-6xl mx-auto px-6 md:px-12 lg:px-[7.5rem] py-4 border-t border-neutral-200">
         <div className="grid w-full grid-cols-1 gap-16">
           <div>
             <MarketImageSlider slides={images} />
@@ -189,7 +189,7 @@ export default function RupeeFlowPitchCaseStudy() {
       </section>
 
       {/* OUTCOME */}
-      <section className="max-w-6xl mx-auto px-4 md:px-10 lg:px-30 py-10 border-t border-neutral-200">
+      <section className="max-w-6xl mx-auto px-6 md:px-12 lg:px-[7.5rem] py-10 border-t border-neutral-200">
         <h2 className="text-2xl font-medium tracking-tight">Outcome</h2>
 
         <ul className="mt-6 max-w-3xl space-y-3 list-disc list-inside text-neutral-700">
@@ -201,7 +201,7 @@ export default function RupeeFlowPitchCaseStudy() {
       </section>
 
       {/* INSIGHT */}
-      <section className="max-w-6xl mx-auto px-4 md:px-10 lg:px-30 py-20 border-t border-neutral-200">
+      <section className="max-w-6xl mx-auto px-6 md:px-12 lg:px-[7.5rem] py-20 border-t border-neutral-200">
         <h2 className="text-2xl font-medium tracking-tight">Insight</h2>
 
         <blockquote className="mt-8 max-w-4xl text-3xl md:text-4xl font-medium tracking-tight">
@@ -217,7 +217,7 @@ export default function RupeeFlowPitchCaseStudy() {
       </section>
 
       {/* FOOTER CTA */}
-      <footer className="max-w-6xl mx-auto px-4 md:px-10 lg:px-30 py-16 border-t border-neutral-200">
+      <footer className="max-w-6xl mx-auto px-6 md:px-12 lg:px-[7.5rem] py-16 border-t border-neutral-200">
         <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
           <p className="text-neutral-800">
             If clarity is the bottleneck, Let me help you.
