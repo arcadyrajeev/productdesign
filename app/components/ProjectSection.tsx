@@ -58,6 +58,18 @@ const ProjectSection = () => {
               "Reduced investor ambiguity",
             ]}
           />
+
+          <ProjectCard
+            title="Clarity & Data hierarchy - BrokerQuant"
+            description="Investor-facing pitch deck and narrative design focused on clarity, assumptions, and market framing."
+            imageUrl="/cases/bq-product1.png"
+            caseStudyLink="/case-studies/brokerquant"
+            points={[
+              "Assumption-driven market framing",
+              "Clear financial logic",
+              "Reduced investor ambiguity",
+            ]}
+          />
         </div>
         <div className=" my-14 flex items-center justify-center">
           <Link

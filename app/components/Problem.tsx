@@ -23,7 +23,7 @@ const FintechClarityPatternSection = () => {
           className="
             text-xl sm:text-2xl md:text-3xl lg:text-5xl
             heading
-            font-medium
+            font-medium md:font-normal
             tracking-tight
             text-primary-text
             max-w-3xl
