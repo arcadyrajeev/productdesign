@@ -9,24 +9,24 @@ const HowIWorkFocusSection = () => {
         className="max-w-5xl mx-auto
           px-6 sm:px-18 md:px-18 lg:px-24
           py-8 sm:py-20 lg:py-32
-          text-center lg:text-left"
+          text-left"
       >
         {/* Right-aligned container */}
-        <div className=" max-w-3xl text-center lg:text-right">
+        <div className=" text-left">
           {/* Eyebrow */}
           <p className="text-xs tracking-wide text-neutral-500 mb-10">
             Where I focus
           </p>
 
           {/* Primary Statement */}
-          <h2 className="text-2xl sm:text-4xl lg:text-5xl  heading tracking-tight text-primary-text leading-tight">
+          <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-5xl font-medium md:font-normal heading tracking-tight text-primary-text leading-tight">
             Hit hard at the point where
             <br />
             product, narrative, and trust intersect.
           </h2>
 
           {/* Intentional Pause */}
-          <div className="h-24" />
+          <div className="h-10 lg:h-20 xl:h-24" />
 
           {/* Framing Paragraph */}
           <p className="text-lg text-neutral-700 leading-relaxed">
@@ -36,10 +36,15 @@ const HowIWorkFocusSection = () => {
           </p>
 
           {/* Focus Areas */}
-          <div className="mt-32 space-y-24">
+          <div
+            className="mt-16 sm:mt-20 lg:mt-24
+            space-y-14 sm:space-y-16 portrait:lg:space-y-18 landscape:space-y-22
+            max-w-3xl
+            mx-auto lg:mx-0"
+          >
             {/* Block 1 */}
             <div>
-              <h3 className="text-sm font-semibold text-neutral-900 mb-4">
+              <h3 className="text-sm font-semibold text-neutral-900 mb-2 md:mb-4">
                 Product structure
               </h3>
               <p className="text-neutral-700 leading-relaxed">
@@ -49,7 +54,7 @@ const HowIWorkFocusSection = () => {
 
             {/* Block 2 */}
             <div>
-              <h3 className="text-sm font-semibold text-neutral-900 mb-4">
+              <h3 className="text-sm font-semibold text-neutral-900 mb-2 md:mb-4">
                 Narrative coherence
               </h3>
               <p className="text-neutral-700 leading-relaxed">
@@ -59,7 +64,7 @@ const HowIWorkFocusSection = () => {
 
             {/* Block 3 */}
             <div>
-              <h3 className="text-sm font-semibold text-neutral-900 mb-4">
+              <h3 className="text-sm font-semibold text-neutral-900 mb-2 md:mb-4">
                 Financial logic
               </h3>
               <p className="text-neutral-700 leading-relaxed">
@@ -69,7 +74,7 @@ const HowIWorkFocusSection = () => {
 
             {/* Block 4 */}
             <div>
-              <h3 className="text-sm font-semibold text-neutral-900 mb-4">
+              <h3 className="text-sm font-semibold text-neutral-900 mb-2 md:mb-4">
                 Trust signals
               </h3>
               <p className="text-neutral-700 leading-relaxed">
@@ -79,7 +84,7 @@ const HowIWorkFocusSection = () => {
           </div>
 
           {/* Closing Reflection */}
-          <p className="mt-32 text-neutral-600 italic">
+          <p className=" mt-16 sm:mt-20 lg:mt-24 text-neutral-600 italic">
             The goal isn’t persuasion.
             <br />
             It’s to make the business understandable without explanation.

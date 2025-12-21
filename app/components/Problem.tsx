@@ -9,8 +9,8 @@ const FintechClarityPatternSection = () => {
         className="
           max-w-5xl mx-auto
           px-6 sm:px-18 md:px-18 lg:px-24
-          py-8 sm:py-20 lg:py-32
-          text-center lg:text-left
+          py-[10vw] sm:py-16 md:py-18 lg:py-12
+          text-left
         "
       >
         {/* Eyebrow */}
@@ -21,7 +21,7 @@ const FintechClarityPatternSection = () => {
         {/* Primary Statement */}
         <h2
           className="
-            text-2xl sm:text-3xl lg:text-5xl
+            text-xl sm:text-2xl md:text-3xl lg:text-5xl
             heading
             tracking-tight
             text-primary-text
@@ -36,7 +36,7 @@ const FintechClarityPatternSection = () => {
         </h2>
 
         {/* Intentional Pause */}
-        <div className="h-16 sm:h-20 lg:h-24" />
+        <div className="h-10 sm:h-20 lg:h-24" />
 
         {/* Secondary Thought */}
         <p
@@ -56,8 +56,8 @@ const FintechClarityPatternSection = () => {
         {/* Concept Blocks */}
         <div
           className="
-            mt-24 sm:mt-28 lg:mt-32
-            space-y-20 sm:space-y-22 lg:space-y-24
+           mt-16 sm:mt-20 lg:mt-24
+            space-y-14 sm:space-y-16 portrait:lg:space-y-18 landscape:space-y-22
             max-w-3xl
             mx-auto lg:mx-0
           "
@@ -108,7 +108,7 @@ const FintechClarityPatternSection = () => {
         {/* Closing Reflection */}
         <p
           className="
-            mt-24 sm:mt-28 lg:mt-32
+            mt-12 sm:mt-18 lg:mt-24 
             max-w-3xl
             mx-auto lg:mx-0
             text-neutral-600

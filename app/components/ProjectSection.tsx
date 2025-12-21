@@ -10,7 +10,7 @@ const ProjectSection = () => {
         className="
           max-w-7xl mx-auto
           px-6 sm:px-10 lg:px-24
-          pb-20
+          py-[2vw] sm:py-10 md:py-12 portrait:lg:py-4 landscape:lg:py-16
           flex flex-col
         "
       >

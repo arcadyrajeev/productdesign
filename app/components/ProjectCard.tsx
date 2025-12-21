@@ -55,7 +55,7 @@ const ProjectCard = ({
           href={caseStudyLink}
           className="
             mt-8
-            lg:w-[50%]
+            portrait:w-[80%] landscape:w-[50%]
             inline-flex items-center justify-center gap-3
             w-full sm:w-auto
             px-8 py-3

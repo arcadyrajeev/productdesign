@@ -27,7 +27,7 @@ const Navbar = () => {
         fixed z-50 w-full
         flex justify-center md:justify-between
         items-center
-        px-6 sm:px-4 md:px-10 lg:px-[7.5rem]
+        px-2 sm:px-4 md:px-10 lg:px-[7.5rem]
         py-6 lg:py-8
     
       "
@@ -42,7 +42,7 @@ const Navbar = () => {
       {/* Navigation */}
       <ul
         className="
-          flex gap-1 sm:gap-2 lg:gap-4
+          flex gap-3 md:gap-4 lg:gap-4
           bg-neutral-50/50
           backdrop-blur-lg
           border border-neutral-50
@@ -61,7 +61,7 @@ const Navbar = () => {
                   block
                   rounded-full
                   px-2 md:px-4 py-1 md:py-2 lg:px-6
-                  text-xs md:text-xs lg:text-base
+                  text-[4vw] sm:text-xs md:text-md  lg:text-base
                   font-medium
                   transition-colors duration-200
                   ${
