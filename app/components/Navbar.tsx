@@ -42,12 +42,12 @@ const Navbar = () => {
       {/* Navigation */}
       <ul
         className="
-          flex gap-3 md:gap-4 lg:gap-4
+          flex gap-2 md:gap-4 lg:gap-4
           bg-neutral-50/50
           backdrop-blur-lg
           border border-neutral-50
           rounded-full
-          p-1 lg:p-2
+          p-[2vw] lg:p-2
         "
       >
         {links.map((link) => {
@@ -60,7 +60,7 @@ const Navbar = () => {
                 className={`
                   block
                   rounded-full
-                  px-2 md:px-4 py-1 md:py-2 lg:px-6
+                  px-[2.5vw] md:px-4 py-1 md:py-2 lg:px-6
                   text-[4vw] sm:text-xs md:text-md  lg:text-base
                   font-medium
                   transition-colors duration-200

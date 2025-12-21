@@ -38,7 +38,7 @@ const HowIWorkFocusSection = () => {
           {/* Focus Areas */}
           <div
             className="mt-16 sm:mt-20 lg:mt-24
-            space-y-14 sm:space-y-16 portrait:lg:space-y-18 landscape:space-y-22
+            space-y-16 sm:space-y-20 portrait:lg:space-y-18 landscape:space-y-22
             max-w-3xl
             mx-auto lg:mx-0"
           >
