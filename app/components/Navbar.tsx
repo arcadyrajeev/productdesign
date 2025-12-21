@@ -61,7 +61,7 @@ const Navbar = () => {
                   block
                   rounded-full
                   px-[2.5vw] md:px-4 py-1 md:py-2 lg:px-6
-                  text-[4vw] sm:text-xs md:text-md  lg:text-base
+                  text-[3vw] sm:text-xs md:text-md  lg:text-base
                   font-medium
                   transition-colors duration-200
                   ${
