@@ -14,7 +14,7 @@ const FintechClarityPatternSection = () => {
         "
       >
         {/* Eyebrow */}
-        <p className="text-xs  max-w-3xl tracking-wide text-neutral-500 mb-2 sm:mb-4">
+        <p className="text-xs   tracking-wide text-neutral-500 mb-2 sm:mb-4">
           A recurring pattern in fintech
         </p>
 
@@ -26,7 +26,7 @@ const FintechClarityPatternSection = () => {
             font-medium md:font-normal
             tracking-tight
             text-primary-text
-            max-w-3xl
+            
             mx-auto lg:mx-0
             leading-tight
           "
@@ -43,7 +43,7 @@ const FintechClarityPatternSection = () => {
         <p
           className="
           
-            max-w-3xl
+          
             mx-auto lg:mx-0
             text-base
             text-neutral-700
@@ -57,7 +57,7 @@ const FintechClarityPatternSection = () => {
         <p
           className="
             mt-4
-            max-w-3xl
+            
             mx-auto lg:mx-0
             text-base 
             text-neutral-700

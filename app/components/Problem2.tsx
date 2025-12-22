@@ -14,7 +14,7 @@ const FintechNarrativeSection = () => {
         "
       >
         {/* Eyebrow */}
-        <p className="text-xs  max-w-3xl tracking-wide text-neutral-500 mb-2 sm:mb-4">
+        <p className="text-xs  tracking-wide text-neutral-500 mb-2 sm:mb-4">
           Why are you loosing traction?
         </p>
 
@@ -26,7 +26,7 @@ const FintechNarrativeSection = () => {
             font-medium md:font-normal
             tracking-tight
             text-primary-text
-            max-w-3xl
+         
             mx-auto lg:mx-0
             leading-tight
           "
@@ -42,7 +42,7 @@ const FintechNarrativeSection = () => {
         {/* Secondary Thought */}
         <p
           className="
-            max-w-3xl
+            
             mx-auto lg:mx-0
             text-base sm:text-lg
             text-neutral-700
