@@ -14,7 +14,7 @@ const FintechClarityPatternSection = () => {
         "
       >
         {/* Eyebrow */}
-        <p className="text-xs tracking-wide text-neutral-500 mb-8 sm:mb-10">
+        <p className="text-xs  max-w-3xl tracking-wide text-neutral-500 mb-2 sm:mb-4">
           A recurring pattern in fintech
         </p>
 
@@ -39,7 +39,6 @@ const FintechClarityPatternSection = () => {
         {/* Intentional Pause */}
         <div className="h-10 sm:h-20 lg:h-24" />
 
-        
         {/* Secondary Thought */}
         <p
           className="

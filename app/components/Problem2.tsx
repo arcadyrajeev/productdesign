@@ -14,7 +14,7 @@ const FintechNarrativeSection = () => {
         "
       >
         {/* Eyebrow */}
-        <p className="text-xs tracking-wide text-neutral-500 mb-8 sm:mb-10">
+        <p className="text-xs  max-w-3xl tracking-wide text-neutral-500 mb-2 sm:mb-4">
           Why are you loosing traction?
         </p>
 
