@@ -43,7 +43,7 @@ export default function RupeeFlowPitchCaseStudy() {
         </Link>
         <header className="max-w-4xl">
           <h1 className="text-3xl md:text-4xl font-medium heading tracking-tight">
-            Pitch Design & Investor Narrative - RupeeFlow
+            Pitch Design & Investor Narrative | RupeeFlow
           </h1>
 
           <p className="mt-6 text-lg md:text-xl font-medium leading-snug text-neutral-800">

@@ -5,7 +5,7 @@ const CSHero = () => {
     <div className="flex flex-col md:flex-row items-center justify-between bg-neutral-50 w-full pt-24 p-4 portrait:lg:pt-16 landscape:lg:pt-32 lg:px-36">
       <h1
         className="
-           heading text-3xl md:text-6xl lg:text-7xl text-primary-text px-3 md:px-0 w-full 
+           heading font-light text-3xl md:text-6xl lg:text-7xl text-primary-text px-3 md:px-0 w-full 
           "
       >
         Case Studies

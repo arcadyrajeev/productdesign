@@ -66,7 +66,7 @@ export default function CryptoRiskCaseStudy() {
       </section>
 
       {/* Risk Context */}
-      <section className="max-w-6xl mx-auto px-6 md:px-12 lg:px-[7.5rem] py-20 border-t border-neutral-200">
+      <section className="max-w-6xl mx-auto px-6 md:px-12 lg:px-[7.5rem] py-10 lg:py-20 border-t border-neutral-200">
         <h2 className="text-2xl heading text-primary-text font-medium tracking-tight">
           Risk context
         </h2>
@@ -89,7 +89,7 @@ export default function CryptoRiskCaseStudy() {
       </section>
 
       {/* Legibility Problem */}
-      <section className="max-w-6xl mx-auto px-6 md:px-12 lg:px-[7.5rem] py-20 border-t border-neutral-200">
+      <section className="relative  max-w-6xl mx-auto px-6 md:px-12 lg:px-[7.5rem] py-10 lg:py-20 border-t border-neutral-200">
         <h2 className="text-2xl heading text-primary-text font-medium tracking-tight">
           The legibility problem
         </h2>
@@ -133,7 +133,7 @@ export default function CryptoRiskCaseStudy() {
       </section>
 
       {/* Structural Decisions */}
-      <section className="max-w-6xl mx-auto px-6 md:px-12 lg:px-[7.5rem] py-20 border-t border-neutral-200">
+      <section className="max-w-6xl mx-auto px-6 md:px-12 lg:px-[7.5rem] py-10 lg:py-20 border-t border-neutral-200">
         <h2 className="text-2xl heading text-primary-text font-medium tracking-tight">
           Structural decisions
         </h2>
@@ -184,30 +184,21 @@ export default function CryptoRiskCaseStudy() {
         </div>
 
         {/* Product Images */}
-        <div className="mt-16 grid grid-cols-1 sm:grid-cols-2 gap-6">
-          <div className="relative rounded-lg overflow-hidden aspect-[16/9]">
+        <div className="mt-16  flex relative grid grid-cols-1 sm:grid-cols-2 gap-6">
+          <div className="relative w-[90vw] md:w-[60vw] rounded-lg overflow-hidden aspect-[16/9]">
             <Image
               alt="Crypto arbitrage execution overview"
-              src="/cases/brokerquant3.png"
+              src="/cases/bq-product2.png"
               fill
               priority
-              className="object-contain"
-            />
-          </div>
-          <div className="relative rounded-lg overflow-hidden aspect-[16/9]">
-            <Image
-              alt="Exchange fee comparison and execution risk"
-              src="/cases/crypto-product2.png"
-              fill
-              priority
-              className="object-contain"
+              className="object-cover"
             />
           </div>
         </div>
       </section>
 
       {/* Outcome */}
-      <section className="max-w-6xl mx-auto px-6 md:px-12 lg:px-[7.5rem] py-20 border-t border-neutral-200">
+      <section className="max-w-6xl mx-auto px-6 md:px-12 lg:px-[7.5rem] py-10 lg:py-20border-t border-neutral-200">
         <h2 className="text-2xl heading text-primary-text font-medium tracking-tight">
           Outcome
         </h2>
@@ -235,7 +226,7 @@ export default function CryptoRiskCaseStudy() {
       </section>
 
       {/* Footer CTA */}
-      <footer className="max-w-6xl mx-auto px-6 md:px-12 lg:px-[7.5rem] py-16 border-t border-neutral-200">
+      <footer className="max-w-6xl mx-auto px-6 md:px-12 lg:px-[7.5rem] py-10 lg:py-20 border-t border-neutral-200">
         <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
           <p className="text-neutral-800">
             If execution risk is invisible, performance metrics are misleading.
