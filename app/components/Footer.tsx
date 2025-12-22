@@ -35,7 +35,7 @@ const Footer = () => {
           <nav
             className="
               flex flex-col sm:flex-row
-              gap-6 sm:gap-10
+              gap-10 sm:gap-18
               text-sm
             "
           >
@@ -74,7 +74,6 @@ const Footer = () => {
                 Focus
               </span>
               <span className="body-font text-neutral-300">Fintech</span>
-              <span className="body-font text-neutral-300">SaaS</span>
               <span className="body-font text-neutral-300">
                 Investor Narratives
               </span>
