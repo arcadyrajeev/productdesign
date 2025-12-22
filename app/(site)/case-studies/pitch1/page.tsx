@@ -30,9 +30,9 @@ export default function RupeeFlowPitchCaseStudy() {
     },
   ];
   return (
-    <main className="bg-neutral-50 pt-12 text-neutral-900 heading">
+    <main className="bg-neutral-50 text-neutral-900 heading">
       {/* HERO */}
-      <section className="max-w-6xl mx-auto px-6 md:px-12 lg:px-[7.5rem] pt-24 pb-20">
+      <section className="max-w-6xl mx-auto px-6 md:px-12 lg:px-[7.5rem] pt-24 lg:pt-32 pb-20">
         <header className="max-w-4xl">
           <h1 className="text-3xl md:text-4xl font-medium heading tracking-tight">
             Pitch Design & Investor Narrative - RupeeFlow
