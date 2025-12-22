@@ -1,7 +1,6 @@
 // components/FinalCTASection.tsx
 
 import React from "react";
-import Link from "next/link";
 
 const FinalCTASection = () => {
   return (
@@ -26,30 +25,34 @@ const FinalCTASection = () => {
             "
           >
             {/* Heading */}
-            <h2 className="text-2xl sm:text-4xl heading  tracking-tight text-neutral-900 max-w-xl">
+            <h2 className="text-2xl sm:text-4xl heading tracking-tight text-neutral-900 max-w-xl">
               If the problem feels familiar,
               <br className="hidden sm:block" />a conversation usually helps.
             </h2>
-
-            {/* CTA */}
           </div>
-          <div className="w-full justify-center lg:justify-end flex mt-6">
-            {" "}
-            <Link
-              href="/contact"
-              className="
+
+          {/* CTA */}
+          <div className="w-full justify-center lg:justify-end flex  mt-6">
+            <div className="flex flex-col justify-center items-center gap-2">
+              <a
+                href="https://wa.me/919523638369?text=Hi!%20I%20came%20across%20your%20work%20and%20wanted%20to%20have%20a%20quick%20conversation."
+                target="_blank"
+                rel="noopener noreferrer"
+                className="
                 text-sm sm:text-base
                 font-medium
                 border border-neutral-700
                 p-4 rounded-full
                 text-neutral-900
-               
-                hover:text-neutral-700
+                hover:border-accent
+                hover:text-accent
                 transition-colors
               "
-            >
-              Start a conversation
-            </Link>
+              >
+                Start a conversation
+              </a>
+              <h3 className="text-secondary-text text-xs"> Chat on Whatsapp</h3>
+            </div>
           </div>
         </div>
       </div>

@@ -9,7 +9,7 @@ const FintechClarityPatternSection = () => {
         className="
           max-w-5xl mx-auto
           px-6 sm:px-18 md:px-18 lg:px-24
-          py-[10vw] sm:py-16 md:py-18 lg:py-12
+          py-[10vw] sm:py-16 md:py-18 lg:py-16
           text-left
         "
       >
@@ -31,33 +31,48 @@ const FintechClarityPatternSection = () => {
             leading-tight
           "
         >
-          Most fintech products don’t fail.
+          Metrics look fine.
           <br />
-          They become hard to explain.
+          Yet something still leaks.
         </h2>
 
         {/* Intentional Pause */}
         <div className="h-10 sm:h-20 lg:h-24" />
 
+        
         {/* Secondary Thought */}
         <p
           className="
+          
             max-w-3xl
             mx-auto lg:mx-0
-            text-base sm:text-lg
+            text-base
             text-neutral-700
             leading-relaxed
           "
         >
-          Internally, the system is coherent. Decisions were made carefully.
-          Trade-offs are understood. Over time, that coherence becomes harder to
-          communicate externally, and friction accumulates quietly.
+          In many fintech products, nothing is technically broken.
+          Infrastructure works. Dashboards are full. Numbers move.
+        </p>
+
+        <p
+          className="
+            mt-4
+            max-w-3xl
+            mx-auto lg:mx-0
+            text-base 
+            text-neutral-700
+            leading-relaxed
+          "
+        >
+          But progress stalls quietly, through small frictions that don’t show
+          up clearly in analytics and don’t trace back to a single cause.
         </p>
 
         {/* Concept Blocks */}
         <div
           className="
-           mt-16 sm:mt-20 lg:mt-24
+            mt-16 sm:mt-20 lg:mt-24
             space-y-16 sm:space-y-20 portrait:lg:space-y-18 landscape:space-y-22
             max-w-3xl
             mx-auto lg:mx-0
@@ -66,42 +81,44 @@ const FintechClarityPatternSection = () => {
           {/* Block 1 */}
           <div>
             <h3 className="text-sm font-semibold text-neutral-900 mb-3">
-              Product signals
+              Invisible onboarding friction
             </h3>
             <p className="text-neutral-700 leading-relaxed">
-              Individual product decisions exist, but they don’t resolve into a
-              clear business story.
+              Drop-offs happen, but dashboards don’t explain why users hesitate
+              or where confidence breaks.
             </p>
           </div>
 
           {/* Block 2 */}
           <div>
             <h3 className="text-sm font-semibold text-neutral-900 mb-3">
-              Narrative drift
+              Pricing & fee ambiguity
             </h3>
             <p className="text-neutral-700 leading-relaxed">
-              The explanation shifts depending on who’s in the room.
+              Users interact with money flows they don’t fully understand,
+              creating hesitation rather than conversion.
             </p>
           </div>
 
           {/* Block 3 */}
           <div>
             <h3 className="text-sm font-semibold text-neutral-900 mb-3">
-              Metrics without meaning
+              Metrics without alignment
             </h3>
             <p className="text-neutral-700 leading-relaxed">
-              Numbers are tracked, but they don’t settle the underlying
-              questions.
+              Teams look at the same numbers but walk away with different
+              conclusions about what’s actually wrong.
             </p>
           </div>
 
           {/* Block 4 */}
           <div>
             <h3 className="text-sm font-semibold text-neutral-900 mb-3">
-              Trust lag
+              Trust breaks across touchpoints
             </h3>
             <p className="text-neutral-700 leading-relaxed">
-              Conviction takes longer than it should.
+              Product, website, pitch, and real usage tell slightly different
+              stories, enough to slow conviction.
             </p>
           </div>
         </div>
@@ -109,15 +126,15 @@ const FintechClarityPatternSection = () => {
         {/* Closing Reflection */}
         <p
           className="
-            mt-12 sm:mt-18 lg:mt-24 
+            mt-12 sm:mt-18 lg:mt-24
             max-w-3xl
             mx-auto lg:mx-0
             text-neutral-600
             italic
           "
         >
-          When clarity breaks, progress slows, even if nothing is technically
-          wrong.
+          When friction is distributed and interpretation breaks, progress slows
+          , even if nothing is obviously wrong.
         </p>
       </div>
     </section>

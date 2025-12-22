@@ -36,18 +36,6 @@ const ProjectSection = () => {
           "
         >
           <ProjectCard
-            title="Product & narrative design | Rupeeflow"
-            description="Aligning product logic, user flows, and business narrative for a high-friction cross-border payments platform."
-            imageUrl="/images/rupeeflow-product.png"
-            caseStudyLink="/case-studies/rupeeflow"
-            points={[
-              "User-friendly interface",
-              "Real-time analytics",
-              "Secure transactions",
-            ]}
-          />
-
-          <ProjectCard
             title="Pitch Design & Investor Narrative - RupeeFlow"
             description="Investor-facing pitch deck and narrative design focused on clarity, assumptions, and market framing."
             imageUrl="/images/rupeeflow-pitch.png"
@@ -61,7 +49,7 @@ const ProjectSection = () => {
 
           <ProjectCard
             title="Clarity & Data hierarchy - BrokerQuant"
-            description="Investor-facing pitch deck and narrative design focused on clarity, assumptions, and market framing."
+            description="A crypto trade risk analysis platform restructured to make execution risk, fees, and market integrity signals immediately legible."
             imageUrl="/cases/bq-product1.png"
             caseStudyLink="/case-studies/brokerquant"
             points={[
