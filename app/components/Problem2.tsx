@@ -112,12 +112,13 @@ const FintechNarrativeSection = () => {
             mt-12 sm:mt-18 lg:mt-24 
              border-l-2 border-neutral-300
             mx-auto lg:mx-0
+            pl-4
             text-neutral-600
             italic
           "
         >
-          When clarity breaks, progress slows, even if nothing is technically
-          wrong.
+          When product and narrative drift apart, trust thins, users and
+          investors lose confidence.
         </p>
       </div>
     </section>

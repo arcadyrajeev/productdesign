@@ -27,7 +27,7 @@ const FinalCTASection = () => {
             {/* Heading */}
             <h2 className="text-2xl sm:text-4xl heading tracking-tight text-neutral-900 max-w-xl">
               If the problem feels familiar,
-              <br className="hidden sm:block" />a conversation usually helps.
+              <br className="hidden sm:block" /> a conversation usually helps.
             </h2>
           </div>
 

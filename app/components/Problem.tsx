@@ -127,12 +127,13 @@ const FintechClarityPatternSection = () => {
           className="
             mt-12 sm:mt-18 lg:mt-24
              border-l-2 border-neutral-300
+             pl-4
             mx-auto lg:mx-0
             text-neutral-600
             italic
           "
         >
-          When friction is distributed and interpretation breaks, progress slows
+          When clarity breaks and friction is distributed, progress slows
           , even if nothing is obviously wrong.
         </p>
       </div>
