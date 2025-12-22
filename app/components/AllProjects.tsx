@@ -58,6 +58,18 @@ const AllProjects = () => {
           />
 
           <ProjectCard
+            title="Clarity & Data hierarchy"
+            description="A GST and invoice management platform restructured to make tax compliance status, filing risk, and financial health signals immediately legible."
+            imageUrl="/cases/clarity.png"
+            caseStudyLink="/case-studies/clarity1"
+            points={[
+              "Assumption-driven market framing",
+              "Clear financial logic",
+              "Reduced investor ambiguity",
+            ]}
+          />
+
+          <ProjectCard
             title="Product & narrative Partner | Rupeeflow"
             description="Aligning product logic, user flows, and business narrative for a high-friction cross-border payments platform."
             imageUrl="/images/rupeeflow-product.png"
