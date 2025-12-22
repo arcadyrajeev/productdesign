@@ -16,28 +16,32 @@ export default function AboutPage() {
     offset: ["start start", "end start"],
   });
 
-  const yBackground = useParallax(scrollYProgress, 120);
-  const yText = useParallax(scrollYProgress, 200);
-  const yImage = useParallax(scrollYProgress, 400);
-  const yContent = useParallax(scrollYProgress, -200);
+  const yBackground = useParallax(scrollYProgress, 20);
+  const yText = useParallax(scrollYProgress, 50);
+  const yImage = useParallax(scrollYProgress, 200);
+  const yContent = useParallax(scrollYProgress, -100);
 
   return (
     <main
       ref={containerRef}
-      className="relative w-full bg-neutral-50 px-4 lg:px-24 text-neutral-900 overflow-hidden"
+      className="relative w-full bg-neutral-50 px-4 md:px-10 lg:px-24 text-neutral-900 overflow-hidden"
     >
       {/* Hero */}
-      <section className="absolute z-10 max-w-6xl mx-auto  pt-16">
+      <section className="absolute z-10 flex px-2 mx-auto pt-16">
         <motion.div
           style={{ y: yText }}
-          className="flex flex-col pt-[18rem] lg:pt-[20rem]"
+          className="flex flex-col pt-[20vh] md:pt-[20vh] px-2 lg:pt-[15rem]"
         >
-          <h1 className="text-xl font-medium text-secondary-text heading tracking-tight my-4 ">
+          <h1 className="text-md md:text-xl  font-medium text-secondary-text heading tracking-tight lg:my-8 my-4 ">
             Rajeev Das
           </h1>
-          <h1 className="text-4xl md:text-7xl max-w-4xl text-primary-text heading tracking-tight ">
+          <h1 className=" text-[6vw] portrait:md:text-5xl landscape:md:text-7xl max-w-3xl landscape:max-w-4xl   text-primary-text heading tracking-tight ">
             Product & Narrative Strategy Partner for{" "}
             <span className="text-accent">Fintech</span>.
+          </h1>
+          <h1 className="text-sm md:text-xl font-medium text-secondary-text max-w-2xl heading tracking-tight my-4 lg:my-8 ">
+            Clarity before persuasion. Product, narrative, and risk clarity for
+            complex systems.
           </h1>
         </motion.div>
       </section>
@@ -45,9 +49,9 @@ export default function AboutPage() {
       {/* Image */}
       <motion.section
         style={{ y: yImage }}
-        className="relative z-5 max-w-4xl ml-auto px-6 md:px-12 lg:px-[7.5rem] translate-y-4 lg:-translate-y-12 lg:translate-x-30 "
+        className="relative z-5 max-w-5xl px-2 md:px-12 lg:px-[12vw] translate-y-4 md:translate-x-30 translate-y-15 "
       >
-        <div className="relative aspect-[3/4] rounded-xl overflow-hidden ">
+        <div className="relative portrait:h-[50vh] landscape:h-[100vh] rounded-xl overflow-hidden ">
           <img
             src="/images/imagerkd2.png"
             alt="Portrait"
@@ -59,10 +63,10 @@ export default function AboutPage() {
       {/* Content */}
       <motion.section
         style={{ y: yContent }}
-        className="relative  z-20 w-full border border-neutral-400 rounded-2xl mx-auto px-6 md:px-12 lg:px-[7.5rem] mt-16 lg:mt-0 pb-32 backdrop-blur-md md:p-16"
+        className="relative  z-20 w-full border border-neutral-400 rounded-2xl mx-auto py-[8vw] px-[10vw] md:px-12 lg:px-[8vw] mt-[30vw] md:mt-0  backdrop-blur-md p md:p-16"
       >
-        <div className="relative mx-auto lg:max-w-4xl flex flex-col gap-8  p-10 ">
-          <p className="text-neutral-700 leading-relaxed text-xl md:text-2xl">
+        <div className="relative mx-auto lg:max-w-4xl flex flex-col gap-8  ">
+          <p className="text-neutral-700 leading-relaxed text-justify text-sm md:text-2xl">
             I help <span className="text-accent">fintech</span>. founders align
             product, narrative, and trust so the business explains itself,
             clearly, consistently, and without constant interpretation.
