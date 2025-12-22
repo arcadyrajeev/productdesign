@@ -81,7 +81,7 @@ export default function RupeeFlowCaseStudy() {
             assessing viability, and partners assessing seriousness.
           </p>
           <p>
-            Early clarity matters disproportionately in regulated or
+            Early legibility matters disproportionately in regulated or
             trust-sensitive systems. Ambiguity compounds faster than progress.
           </p>
         </div>
