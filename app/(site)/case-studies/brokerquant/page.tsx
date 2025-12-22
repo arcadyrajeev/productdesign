@@ -6,7 +6,7 @@ import { ArrowLeft } from "lucide-react";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Product & narrative architecture | Crypto trade risk analysis",
+  title: "Clarity & Data hierarchy | Crypto trade risk analysis",
   description:
     "Designing a crypto trading system where execution risk is visible, differentiated, and legible before action.",
 };
@@ -18,13 +18,13 @@ export default function CryptoRiskCaseStudy() {
       <section className="max-w-6xl mx-auto px-6 md:px-12 lg:px-[7.5rem] pt-24 lg:pt-32 pb-20">
         <Link
           href="/case-studies"
-          className="flex items-center p-2 body-font font-bold gap-2 text-md border border-neutral-300 w-fit rounded-full hover:bg-neutral-100 cursor-pointer mb-6"
+          className="flex items-center py-2 px-4 body-font font-bold gap-2 text-md border border-neutral-300 w-fit rounded-full hover:bg-neutral-100 cursor-pointer mb-6"
         >
           <ArrowLeft /> Go back
         </Link>
         <header className="max-w-3xl">
           <h1 className="text-4xl md:text-5xl heading text-primary-text font-medium tracking-tight">
-            Product & narrative architecture | Crypto trade risk analysis
+            Clarity & Data hierarchy | Crypto trade risk analysis
           </h1>
           <p className="mt-6 text-lg md:text-xl leading-snug text-neutral-800">
             Making execution risk visible before a trade is placed.

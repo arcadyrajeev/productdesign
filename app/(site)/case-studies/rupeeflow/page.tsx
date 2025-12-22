@@ -18,7 +18,7 @@ export default function RupeeFlowCaseStudy() {
       <section className="max-w-6xl mx-auto px-6 md:px-12 lg:px-[7.5rem] pt-24 lg:pt-32 pb-20">
         <Link
           href="/case-studies"
-          className="flex items-center p-2 body-font font-bold gap-2 text-md border border-neutral-300 w-fit rounded-full hover:bg-neutral-100 cursor-pointer mb-6"
+          className="flex items-center py-2 px-4 body-font font-bold gap-2 text-md border border-neutral-300 w-fit rounded-full hover:bg-neutral-100 cursor-pointer mb-6"
         >
           <ArrowLeft /> Go back
         </Link>

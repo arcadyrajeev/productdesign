@@ -23,7 +23,7 @@ const AllProjects = () => {
           "
         >
           <ProjectCard
-            title="Pitch Design & Investor Narrative - RupeeFlow"
+            title="Pitch Design & Investor Narrative | RupeeFlow"
             description="Investor-facing pitch deck and narrative design focused on clarity, assumptions, and market framing."
             imageUrl="/images/rupeeflow-pitch.png"
             caseStudyLink="/case-studies/pitch1"
@@ -46,7 +46,7 @@ const AllProjects = () => {
           />
 
           <ProjectCard
-            title="Clarity & Data hierarchy - BrokerQuant"
+            title="Clarity & Data hierarchy | BrokerQuant"
             description="A crypto trade risk analysis platform restructured to make execution risk, fees, and market integrity signals immediately legible."
             imageUrl="/cases/bq-product1.png"
             caseStudyLink="/case-studies/brokerquant"
