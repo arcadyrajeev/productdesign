@@ -47,7 +47,7 @@ const Navbar = () => {
           backdrop-blur-lg
           border border-neutral-50
           rounded-full
-          p-[1.2vw] lg:p-1
+          p-[1vw] lg:p-1
         "
       >
         {links.map((link) => {
