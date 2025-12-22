@@ -2,6 +2,8 @@
 
 import type { Metadata } from "next";
 import Image from "next/image";
+import { ArrowLeft } from "lucide-react";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Product & narrative architecture | Crypto trade risk analysis",
@@ -14,6 +16,12 @@ export default function CryptoRiskCaseStudy() {
     <main className="bg-neutral-50 text-neutral-900">
       {/* Hero Section */}
       <section className="max-w-6xl mx-auto px-6 md:px-12 lg:px-[7.5rem] pt-24 lg:pt-32 pb-20">
+        <Link
+          href="/case-studies"
+          className="flex items-center p-2 body-font font-bold gap-2 text-md border border-neutral-300 w-fit rounded-full hover:bg-neutral-100 cursor-pointer mb-6"
+        >
+          <ArrowLeft /> Go back
+        </Link>
         <header className="max-w-3xl">
           <h1 className="text-4xl md:text-5xl heading text-primary-text font-medium tracking-tight">
             Product & narrative architecture | Crypto trade risk analysis
@@ -233,7 +241,9 @@ export default function CryptoRiskCaseStudy() {
             If execution risk is invisible, performance metrics are misleading.
           </p>
           <a
-            href="/contact"
+            href="https://wa.me/919523638369?text=Hi!%20I%20came%20across%20your%20work%20and%20wanted%20to%20have%20a%20quick%20conversation."
+            target="_blank"
+            rel="noopener noreferrer"
             className="text-sm font-medium text-neutral-900 underline underline-offset-4 hover:text-neutral-700"
           >
             Start a conversation

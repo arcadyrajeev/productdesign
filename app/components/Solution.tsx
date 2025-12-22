@@ -84,10 +84,10 @@ const HowIWorkFocusSection = () => {
           </div>
 
           {/* Closing Reflection */}
-          <p className=" mt-16 sm:mt-20 lg:mt-24 text-neutral-600 italic">
-            The goal isn’t persuasion.
+          <p className=" mt-16 sm:mt-20  border-l-2 border-neutral-300 lg:mt-24 text-neutral-600 italic">
+            The goal isn&rsquo;t persuasion.
             <br />
-            It’s to make the business understandable without explanation.
+            It&rsquo;s to make the business legible on its own.
           </p>
         </div>
       </div>

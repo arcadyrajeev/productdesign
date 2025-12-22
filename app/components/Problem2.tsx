@@ -110,7 +110,7 @@ const FintechNarrativeSection = () => {
         <p
           className="
             mt-12 sm:mt-18 lg:mt-24 
-            max-w-3xl
+             border-l-2 border-neutral-300
             mx-auto lg:mx-0
             text-neutral-600
             italic
