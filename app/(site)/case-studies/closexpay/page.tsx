@@ -34,7 +34,7 @@ export default function CloseXPayCaseStudy() {
 
           <p className="mt-4 text-base md:text-md text-neutral-600 max-w-2xl">
             A payments platform restructured to clearly communicate value,
-            trust, and control — across homepage narrative, pricing logic, and
+            trust, and control, across homepage narrative, pricing logic, and
             product framing.
           </p>
 
@@ -61,11 +61,11 @@ export default function CloseXPayCaseStudy() {
         {/* COVER IMAGE */}
         <div className="mt-16 px-4 md:px-10 lg:px-30 relative aspect-[16/9] w-full overflow-hidden rounded-lg border border-neutral-200 bg-neutral-200">
           <Image
-            src="/cases/closexpay-cover1.png"
+            src="/cases/closex-cover.png"
             alt="Payments platform homepage and product framing"
             fill
             priority
-            className="object-contain"
+            className="object-cover"
           />
         </div>
       </section>
@@ -79,14 +79,14 @@ export default function CloseXPayCaseStudy() {
         <div className="mt-6 max-w-3xl space-y-4 text-neutral-700 leading-relaxed">
           <p>
             In payments and consumer fintech, trust is rarely built through
-            feature lists. It is formed through clarity — how quickly users
+            feature lists. It is formed through clarity, how quickly users
             understand what the product does, how it makes money, and what
             control they retain.
           </p>
 
           <p>
             The challenge here was not functionality. The system worked. The
-            issue was interpretation — across the homepage, pricing, and product
+            issue was interpretation, across the homepage, pricing, and product
             presentation.
           </p>
         </div>
@@ -100,8 +100,8 @@ export default function CloseXPayCaseStudy() {
 
         <div className="mt-6 max-w-3xl text-neutral-700 leading-relaxed">
           <p>
-            Users encountered multiple decision points — onboarding, pricing,
-            feature comparison — without a single, stable mental model of the
+            Users encountered multiple decision points, onboarding, pricing,
+            feature comparison, without a single, stable mental model of the
             product.
           </p>
 
@@ -121,7 +121,7 @@ export default function CloseXPayCaseStudy() {
               <span className="font-medium text-neutral-900">
                 Pricing ambiguity:
               </span>{" "}
-              Tiers existed, but the logic behind them wasn’t self-evident.
+              Tiers existed, but the logic behind them wasn&apos;t self-evident.
             </li>
             <li>
               <span className="font-medium text-neutral-900">
@@ -158,7 +158,7 @@ export default function CloseXPayCaseStudy() {
           </h3>
           <p className="mt-4 text-neutral-700 leading-relaxed">
             The three-tier pricing structure was reframed to communicate intent
-            — who each tier is for, what changes as you move up, and why.
+            , who each tier is for, what changes as you move up, and why.
           </p>
           <p className="mt-3 text-neutral-700 leading-relaxed">
             Pricing became a decision aid, not a comparison exercise.
