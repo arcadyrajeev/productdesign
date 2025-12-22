@@ -27,7 +27,7 @@ export default function AboutPage() {
       className="relative w-full bg-neutral-50 px-4 md:px-10 lg:px-24 text-neutral-900 overflow-hidden"
     >
       {/* Hero */}
-      <section className="absolute z-10 flex px-2 mx-auto pt-16">
+      <section className="relative z-10 flex px-2 mx-auto pt-30 lg:pt-16">
         <motion.div
           style={{ y: yText }}
           className="flex flex-col pt-[32vw] md:pt-[20vh] px-2 lg:pt-[15rem]"
@@ -35,11 +35,11 @@ export default function AboutPage() {
           <h1 className="text-md md:text-xl  font-medium text-secondary-text heading tracking-tight lg:my-8 my-4 ">
             Rajeev Das
           </h1>
-          <h1 className=" text-[6vw] portrait:md:text-5xl landscape:md:text-7xl max-w-3xl landscape:max-w-4xl   text-primary-text heading tracking-tight ">
+          <h1 className=" text-[6vw] portrait:md:text-5xl landscape:md:text-7xl portrait:max-w-2xl landscape:max-w-4xl   text-primary-text heading tracking-tight ">
             Product & Narrative Strategy Partner for{" "}
             <span className="text-accent">Fintech</span>.
           </h1>
-          <h1 className="text-sm md:text-xl font-medium text-secondary-text max-w-2xl heading tracking-tight my-4 lg:my-8 ">
+          <h1 className="text-sm md:text-xl portrait:max-w-xl landscape:max-w-2xl font-medium text-secondary-text max-w-2xl heading tracking-tight my-4 lg:my-8 ">
             Clarity over persuasion. Product, narrative, and risk clarity for
             complex systems.
           </h1>
@@ -48,9 +48,9 @@ export default function AboutPage() {
       {/* Image */}
       <motion.section
         style={{ y: yImage }}
-        className="relative z-5 max-w-5xl px-2 md:px-12 lg:px-[12vw] translate-y-4 mb-[10vw] lg:translate-x-[25vw] md:translate-x-25 translate-y-15 "
+        className="absolute z-5 top-14 right-0"
       >
-        <div className="relative portrait:h-[50vh] landscape:h-[100vh] rounded-xl overflow-hidden ">
+        <div className="relative  rounded-xl max-w-2xl  overflow-hidden ">
           <img
             src="/images/imagerkd2.png"
             alt="Portrait"
@@ -61,7 +61,7 @@ export default function AboutPage() {
       {/* Content */}
       <motion.section
         style={{ y: yContent }}
-        className="relative  z-20 w-full border border-neutral-400 rounded-2xl mx-auto py-[16vw] px-[10vw] md:px-12 lg:px-[8vw] mt-[25vw] md:mt-0  backdrop-blur-md p md:p-16"
+        className="relative  z-20 w-full border border-neutral-400 rounded-2xl mx-auto py-[16vw] px-[10vw] md:px-12 lg:px-[8vw] mt-[8vw] md:mt-8 backdrop-blur-md p md:p-16"
       >
         <div className="relative mx-auto lg:max-w-4xl flex flex-col gap-8  ">
           <p className="text-neutral-700 leading-relaxed text-justify text-sm md:text-2xl">

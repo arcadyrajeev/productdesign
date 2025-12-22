@@ -185,12 +185,12 @@ export default function RupeeFlowCaseStudy() {
           </p>
         </div>
 
-        {/* Onboarding Images */}
-        <div className="mt-12 grid grid-cols-1 sm:grid-cols-3  gap-6 md:gap-2">
+        {/* Product Images */}
+        <div className="mt-16 grid grid-cols-1 sm:grid-cols-2 gap-6">
           <div className="relative rounded-lg overflow-hidden aspect-[16/9]">
             <Image
-              src="/cases/rf-onboard1.png"
-              alt="RupeeFlow KYC onboarding step"
+              alt="RupeeFlow product structure"
+              src="/cases/rf-product1.png"
               fill
               priority
               className="object-contain"
@@ -198,17 +198,8 @@ export default function RupeeFlowCaseStudy() {
           </div>
           <div className="relative rounded-lg overflow-hidden aspect-[16/9]">
             <Image
-              src="/cases/rf-onboard2.png"
-              alt="RupeeFlow business structure onboarding"
-              fill
-              priority
-              className="object-contain"
-            />
-          </div>
-          <div className="relative rounded-lg overflow-hidden aspect-[16/9]">
-            <Image
-              src="/cases/rf-onboard3.png"
-              alt="RupeeFlow KYB verification step"
+              alt="RupeeFlow financial flows"
+              src="/cases/rf-product2.png"
               fill
               priority
               className="object-contain"
@@ -238,12 +229,12 @@ export default function RupeeFlowCaseStudy() {
           </p>
         </div>
 
-        {/* Product Images */}
-        <div className="mt-16 grid grid-cols-1 sm:grid-cols-2 gap-6">
+        {/* Onboarding Images */}
+        <div className="mt-12 grid grid-cols-1 sm:grid-cols-3  gap-6 md:gap-2">
           <div className="relative rounded-lg overflow-hidden aspect-[16/9]">
             <Image
-              alt="RupeeFlow product structure"
-              src="/cases/rf-product1.png"
+              src="/cases/rf-onboard1.png"
+              alt="RupeeFlow KYC onboarding step"
               fill
               priority
               className="object-contain"
@@ -251,8 +242,17 @@ export default function RupeeFlowCaseStudy() {
           </div>
           <div className="relative rounded-lg overflow-hidden aspect-[16/9]">
             <Image
-              alt="RupeeFlow financial flows"
-              src="/cases/rf-product2.png"
+              src="/cases/rf-onboard2.png"
+              alt="RupeeFlow business structure onboarding"
+              fill
+              priority
+              className="object-contain"
+            />
+          </div>
+          <div className="relative rounded-lg overflow-hidden aspect-[16/9]">
+            <Image
+              src="/cases/rf-onboard3.png"
+              alt="RupeeFlow KYB verification step"
               fill
               priority
               className="object-contain"
