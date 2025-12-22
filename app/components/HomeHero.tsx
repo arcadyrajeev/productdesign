@@ -1,5 +1,6 @@
 import React from "react";
 import HeroGraphic from "./HeroGraphic";
+import MiddleCta from "./MiddleCta";
 
 const HomeHero = () => {
   return (
@@ -10,8 +11,7 @@ const HomeHero = () => {
       </h1>
       <div className="w-full flex justify-end">
         <h1 className="p-4 text-lg portrait:w-[80%] landscape:w-[50%] text-2xl text-left heading text-primary-text/90 font-light lg:leading-8 tracking-tight  pt-8">
-          I help{" "}
-          <span className="font-medium text-accent">fintech and SaaS</span>{" "}
+          I help <span className="font-medium text-accent">fintech</span>{" "}
           founders align brand, product, and narrative so the business is
           understood, by <span className="font-medium ">users</span> ,{" "}
           <span className="font-medium ">investors</span>, and{" "}
@@ -21,6 +21,7 @@ const HomeHero = () => {
       <div className="w-full px-2 lg:px-10 py-6 md:py-8 lg:py-10 xl:py-15 flex ">
         <HeroGraphic />
       </div>
+      <MiddleCta />
     </div>
   );
 };

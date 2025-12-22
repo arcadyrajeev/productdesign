@@ -16,7 +16,7 @@ const Bridge = ({ text }: BridgeProps) => {
       >
         <p
           className="
-             text-xl sm:text-2xl md:text-3xl lg:text-5xl
+             text-2xl  md:text-3xl lg:text-5xl
             heading
             font-medium md:font-normal
             tracking-tight

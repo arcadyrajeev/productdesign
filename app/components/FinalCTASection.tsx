@@ -2,7 +2,12 @@
 
 import React from "react";
 
-const FinalCTASection = () => {
+interface FinalCTASectionProps {
+  text1: string;
+  text2: string;
+}
+
+const FinalCTASection = ({ text1, text2 }: FinalCTASectionProps) => {
   return (
     <section className="w-full bg-neutral-50">
       <div className="max-w-6xl mx-auto px-6 sm:px-10 lg:px-24 py-8 lg:py-24">
@@ -26,8 +31,8 @@ const FinalCTASection = () => {
           >
             {/* Heading */}
             <h2 className="text-2xl sm:text-4xl heading tracking-tight text-neutral-900 max-w-xl">
-              If the problem feels familiar,
-              <br className="hidden sm:block" /> a conversation usually helps.
+              {text1}
+              <br /> {text2}
             </h2>
           </div>
 

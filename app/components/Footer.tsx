@@ -23,7 +23,7 @@ const Footer = () => {
         >
           {/* Left: Positioning */}
           <div className="max-w-xl">
-            <h2 className="heading text-xl sm:text-4xl text-neutral-100">
+            <h2 className="heading text-3xl sm:text-5xl text-neutral-100">
               Clarity over persuasion
             </h2>
             <p className="heading font-light mt-10 text-md lg:text-xl">

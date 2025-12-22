@@ -48,7 +48,7 @@ const ProjectSection = () => {
           />
 
           <ProjectCard
-            title="Clarity & Data hierarchy - BrokerQuant"
+            title="Clarity & Data hierarchy | BrokerQuant"
             description="A crypto trade risk analysis platform restructured to make execution risk, fees, and market integrity signals immediately legible."
             imageUrl="/cases/bq-product1.png"
             caseStudyLink="/case-studies/brokerquant"

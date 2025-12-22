@@ -6,11 +6,13 @@ import ProjectSection from "./components/ProjectSection";
 import SkillsSection from "./components/SkillsSection";
 import HowIWorkFocusSection from "./components/Solution";
 import Bridge from "./components/Bridge";
+import MiddleCta from "./components/MiddleCta";
 
 export default function Home() {
   return (
     <>
       <HomeHero />
+
       <ProjectSection />
       <FintechClarityProblemSection />
       <FintechNarrativeSection />
@@ -20,7 +22,10 @@ export default function Home() {
       />
       <HowIWorkFocusSection />
       <Bridge text="This usually shows up before a raise or after early traction." />
-      <FinalCTASection />
+      <FinalCTASection
+        text1="If the problem feels familiar,"
+        text2="a conversation usually helps."
+      />
     </>
   );
 }

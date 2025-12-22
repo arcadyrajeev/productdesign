@@ -38,12 +38,12 @@ export default function RupeeFlowCaseStudy() {
           <dl className="mt-10 grid grid-cols-1 sm:grid-cols-3 gap-6 text-sm">
             <div>
               <dt className="text-neutral-500">Industry</dt>
-              <dd className="mt-1 font-medium">Fintech</dd>
+              <dd className="mt-1 font-medium">Fintech - Payments</dd>
             </div>
             <div>
               <dt className="text-neutral-500">Scope</dt>
               <dd className="mt-1 font-medium">
-                Product Structure, Narrative, Brand, Website, Pitch
+                Product Structure, Narrative & Branding
               </dd>
             </div>
             <div>
@@ -186,7 +186,7 @@ export default function RupeeFlowCaseStudy() {
         </div>
 
         {/* Onboarding Images */}
-        <div className="mt-12 grid grid-cols-1 sm:grid-cols-3 bg-neutral-200 rounded-lg px-2 py-8  gap-6 md:gap-2">
+        <div className="mt-12 grid grid-cols-1 sm:grid-cols-3  gap-6 md:gap-2">
           <div className="relative rounded-lg overflow-hidden aspect-[16/9]">
             <Image
               src="/cases/rf-onboard1.png"

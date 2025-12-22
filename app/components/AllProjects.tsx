@@ -10,7 +10,7 @@ const AllProjects = () => {
         className="
           max-w-7xl mx-auto
           px-6 sm:px-10 lg:px-24
-          py-[2vw] sm:py-10 md:py-12 portrait:lg:py-4 landscape:lg:py-16
+          py-[2vw] sm:pt-10 md:pt-12 portrait:lg:py-4 landscape:lg:pt-16
           flex flex-col
         "
       >
@@ -68,15 +68,6 @@ const AllProjects = () => {
               "Secure transactions",
             ]}
           />
-        </div>
-        <div className=" my-14 flex items-center justify-center">
-          <Link
-            href={"/case-studies"}
-            className="heading text-primary-text  font-medium hover:text-accent hover:underline py-2 px-4 underline-offset-5 transition-colors"
-          >
-            View All Case Studies
-            <ArrowUpRight size={20} className="inline-block ml-2 mb-1" />
-          </Link>
         </div>
       </div>
     </section>

@@ -64,7 +64,7 @@ export default function RupeeFlowPitchCaseStudy() {
             </div>
             <div>
               <dt className="text-neutral-500">Stage</dt>
-              <dd className="mt-1 font-medium">Pre-seed / Seed</dd>
+              <dd className="mt-1 font-medium">Pre-seed</dd>
             </div>
             <div>
               <dt className="text-neutral-500">Scope</dt>

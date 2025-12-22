@@ -58,7 +58,7 @@ const ProjectCard = ({
             portrait:w-[80%] landscape:w-[50%]
             inline-flex items-center justify-center gap-3
             w-full sm:w-auto
-            px-8 py-3
+            px-4 md:px-8 py-3
             text-sm sm:text-base
             bg-primary-text text-white
             rounded-full
