@@ -69,10 +69,10 @@ export default function AboutPage() {
       >
         <div className="relative mx-auto flex flex-col gap-8 backdrop-blur-md border border-neutral-400 rounded-2xl px-4 lg:px-16 py-10">
           <p className="text-neutral-700 leading-relaxed text-justify text-sm md:text-2xl">
-            I support <span className="text-accent">fintech</span>
-            founders during high-stakes moments, when products grow in
-            complexity, capital enters the conversation, and the business needs
-            to hold up under scrutiny.
+            I support <span className="text-accent">fintech</span> founders
+            during high-stakes moments, when products grow in complexity,
+            capital enters the conversation, and the business needs to hold up
+            under scrutiny.
           </p>
 
           <p className="text-neutral-700 leading-relaxed text-justify text-sm md:text-2xl">
