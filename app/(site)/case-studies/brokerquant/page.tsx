@@ -73,7 +73,7 @@ export default function CryptoRiskCaseStudy() {
         <div className="mt-6 max-w-3xl space-y-4 text-neutral-700 leading-relaxed">
           <p>
             In crypto markets, data abundance creates an illusion of control.
-            Traders are rarely under-informed — they are misled by fragmented
+            Traders are rarely under-informed, they are misled by fragmented
             risk signals.
           </p>
           <p>
@@ -82,8 +82,8 @@ export default function CryptoRiskCaseStudy() {
             appear after execution.
           </p>
           <p>
-            The platform’s challenge was not access to information, but making
-            risk legible under time pressure.
+            The platform&apos;s challenge was not access to information, but
+            making risk legible under time pressure.
           </p>
         </div>
       </section>
@@ -164,7 +164,7 @@ export default function CryptoRiskCaseStudy() {
           </p>
           <p className="mt-3 text-neutral-700 leading-relaxed">
             Execution cost, depth impact, and volatility context now frame
-            opportunity — not the other way around.
+            opportunity, not the other way around.
           </p>
         </div>
 
@@ -220,8 +220,8 @@ export default function CryptoRiskCaseStudy() {
           “In trading, clarity is a risk control mechanism.”
         </blockquote>
         <p className="mt-6 max-w-3xl text-neutral-700 leading-relaxed">
-          When risk is structured and visible, traders don’t need persuasion.
-          They self-regulate.
+          When risk is structured and visible, traders don&apos;t need
+          persuasion. They self-regulate.
         </p>
       </section>
 

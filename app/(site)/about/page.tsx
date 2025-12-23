@@ -69,7 +69,7 @@ export default function AboutPage() {
       >
         <div className="relative mx-auto flex flex-col gap-8 backdrop-blur-md border border-neutral-400 rounded-2xl px-4 lg:px-16 py-10">
           <p className="text-neutral-700 leading-relaxed text-justify text-sm md:text-2xl">
-            I support <span className="text-accent">fintech</span> and SaaS
+            I support <span className="text-accent">fintech</span>
             founders during high-stakes moments, when products grow in
             complexity, capital enters the conversation, and the business needs
             to hold up under scrutiny.
@@ -82,19 +82,19 @@ export default function AboutPage() {
           </p>
 
           <p className="text-neutral-600 text-sm md:text-lg leading-relaxed">
-            You won’t find a traditional portfolio here by design.
+            You won&apos;t find a traditional portfolio here by design.
           </p>
 
           <p className="text-neutral-700 text-sm md:text-lg leading-relaxed">
             Most of the value in this work lives in how problems are framed, how
             assumptions are made visible, and how product and narrative
-            decisions hold up under questioning. That’s difficult to represent
-            through static screens.
+            decisions hold up under questioning. That&apos;s difficult to
+            represent through static screens.
           </p>
 
           <p className="text-neutral-700 text-sm md:text-lg leading-relaxed">
-            It’s usually clearer through a short walkthrough or conversation
-            than through polished artifacts.
+            It&apos;s usually clearer through a short walkthrough or
+            conversation than through polished artifacts.
           </p>
 
           <a
@@ -156,7 +156,7 @@ export default function AboutPage() {
               </h3>
               <p>
                 How decisions surface, how money moves, and how outcomes resolve
-                , so users and teams don’t have to infer meaning.
+                , so users and teams don&apos;t have to infer meaning.
               </p>
             </div>
 
@@ -198,15 +198,15 @@ export default function AboutPage() {
         <div className="relative mx-auto lg:max-w-4xl flex flex-col gap-4">
           <p className="text-neutral-700 text-sm md:text-lg leading-relaxed">
             In investor conversations, many strong businesses stall not because
-            the idea is weak, but because the reasoning doesn’t fully resolve.
-            Questions repeat, conviction builds slowly, and explanations shift
-            across meetings.
+            the idea is weak, but because the reasoning doesn&apos;t fully
+            resolve. Questions repeat, conviction builds slowly, and
+            explanations shift across meetings.
           </p>
 
           <p className="text-neutral-700 text-sm md:text-lg leading-relaxed">
-            When that happens, it’s usually a signal that product logic, market
-            framing, and narrative structure aren’t yet aligned, not that the
-            business lacks potential.
+            When that happens, it&apos;s usually a signal that product logic,
+            market framing, and narrative structure aren&apos;t yet aligned, not
+            that the business lacks potential.
           </p>
         </div>
       </section>
