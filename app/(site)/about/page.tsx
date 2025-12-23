@@ -27,30 +27,33 @@ export default function AboutPage() {
       className="relative w-full bg-neutral-50 px-4 md:px-10 lg:px-24 text-neutral-900 overflow-hidden"
     >
       {/* Hero */}
-      <section className="relative z-10 flex px-4 md:px-12 lg:px-[6vw]  mx-auto pt-36 lg:pt-16">
+      <section className="relative z-10 flex px-4 md:px-12 lg:px-[6vw] mx-auto pt-36 lg:pt-16">
         <motion.div
           style={{ y: yText }}
           className="flex flex-col pt-[32vw] md:pt-[20vh] px-2 lg:pt-[15rem]"
         >
-          <h1 className="text-md md:text-xl  font-medium text-secondary-text heading tracking-tight lg:my-8 my-4 ">
+          <h1 className="text-md md:text-xl font-medium text-secondary-text heading tracking-tight lg:my-8 my-4">
             Rajeev Das
           </h1>
-          <h1 className=" text-[6vw] portrait:md:text-5xl landscape:md:text-7xl portrait:max-w-2xl landscape:max-w-4xl   text-primary-text heading tracking-tight ">
+
+          <h1 className="text-[6vw] portrait:md:text-5xl landscape:md:text-7xl portrait:max-w-2xl landscape:max-w-4xl text-primary-text heading tracking-tight">
             Product & Narrative Strategy Partner for{" "}
             <span className="text-accent">Fintech</span>.
           </h1>
-          <h1 className="text-sm md:text-xl portrait:max-w-xl landscape:max-w-2xl font-medium text-secondary-text max-w-2xl heading tracking-tight my-4 lg:my-8 ">
-            Clarity over persuasion. Product, narrative, and risk clarity for
-            complex systems.
+
+          <h1 className="text-sm md:text-xl portrait:max-w-xl landscape:max-w-2xl font-medium text-secondary-text max-w-2xl heading tracking-tight my-4 lg:my-8">
+            Product, narrative, and risk clarity for complex systems, where
+            decisions, trust, and capital intersect.
           </h1>
         </motion.div>
       </section>
+
       {/* Image */}
       <motion.section
         style={{ y: yImage }}
         className="absolute z-5 top-14 right-0"
       >
-        <div className="relative  rounded-xl max-w-2xl  overflow-hidden ">
+        <div className="relative rounded-xl max-w-2xl overflow-hidden">
           <img
             src="/images/imagerkd2.png"
             alt="Portrait"
@@ -58,23 +61,47 @@ export default function AboutPage() {
           />
         </div>
       </motion.section>
-      {/* Content */}
+
+      {/* Intro Content */}
       <motion.section
         style={{ y: yContent }}
-        className="relative px-4 md:px-12 lg:px-[6vw]  z-20 w-full mx-auto mt-[8vw] md:mt-8 "
+        className="relative px-4 md:px-12 lg:px-[6vw] z-20 w-full mx-auto mt-[8vw] md:mt-8"
       >
-        <div className="relative  mx-auto flex flex-col gap-8  backdrop-blur-md border border-neutral-400 rounded-2xl px-4 lg:px-16 py-10">
+        <div className="relative mx-auto flex flex-col gap-8 backdrop-blur-md border border-neutral-400 rounded-2xl px-4 lg:px-16 py-10">
           <p className="text-neutral-700 leading-relaxed text-justify text-sm md:text-2xl">
-            I help <span className="text-accent">fintech</span> founders align
-            their product, narrative, and trust so the business explains itself,
-            clearly, consistently, and without constant interpretation.
+            I support <span className="text-accent">fintech</span> and SaaS
+            founders during high-stakes moments, when products grow in
+            complexity, capital enters the conversation, and the business needs
+            to hold up under scrutiny.
+          </p>
+
+          <p className="text-neutral-700 leading-relaxed text-justify text-sm md:text-2xl">
+            My work focuses on aligning product structure, market framing, and
+            narrative so the business can be understood clearly by users,
+            investors, and the market, without relying on constant explanation.
+          </p>
+
+          <p className="text-neutral-600 text-sm md:text-lg leading-relaxed">
+            You won’t find a traditional portfolio here by design.
+          </p>
+
+          <p className="text-neutral-700 text-sm md:text-lg leading-relaxed">
+            Most of the value in this work lives in how problems are framed, how
+            assumptions are made visible, and how product and narrative
+            decisions hold up under questioning. That’s difficult to represent
+            through static screens.
+          </p>
+
+          <p className="text-neutral-700 text-sm md:text-lg leading-relaxed">
+            It’s usually clearer through a short walkthrough or conversation
+            than through polished artifacts.
           </p>
 
           <a
             href="https://wa.me/919523638369?text=Hi!%20I%20came%20across%20your%20work%20and%20wanted%20to%20have%20a%20quick%20conversation."
             target="_blank"
             rel="noopener noreferrer"
-            className=" text-sm font-medium text-neutral-900 underline underline-offset-4 hover:text-neutral-700"
+            className="text-sm font-medium text-neutral-900 underline underline-offset-4 hover:text-neutral-700"
           >
             Start a conversation
           </a>
@@ -90,9 +117,9 @@ export default function AboutPage() {
 
           <div className="text-neutral-700 leading-relaxed text-sm md:text-xl space-y-4">
             <p>
-              This work usually shows up at inflection points, when progress
-              slows, not because anything is broken, but because interpretation
-              starts to drift.
+              This work usually shows up at inflection points, not because
+              anything is broken, but because growing complexity makes the
+              business harder to interpret under pressure.
             </p>
 
             <ul className="list-disc list-inside space-y-2">
@@ -114,6 +141,7 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
+
       {/* What I focus on */}
       <section className="relative z-20 w-full mx-auto py-6 px-[4vw] md:px-12 lg:px-[8vw] mt-[2vw] md:mt-8">
         <div className="relative mx-auto lg:max-w-4xl flex flex-col gap-3 lg:gap-8">
@@ -124,11 +152,11 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-neutral-700 text-sm md:text-lg leading-relaxed">
             <div>
               <h3 className="font-medium text-primary-text mb-2">
-                Product legibility
+                Product structure
               </h3>
               <p>
-                How decisions surface, how money moves, and how outcomes become
-                visible, not just which features exist.
+                How decisions surface, how money moves, and how outcomes resolve
+                , so users and teams don’t have to infer meaning.
               </p>
             </div>
 
@@ -138,17 +166,17 @@ export default function AboutPage() {
               </h3>
               <p>
                 Ensuring the explanation holds across product, website, pitch,
-                and conversations, without shifting depending on the room.
+                and investor conversations, without shifting by context.
               </p>
             </div>
 
             <div>
               <h3 className="font-medium text-primary-text mb-2">
-                Trust signals
+                Trust under scrutiny
               </h3>
               <p>
-                Designing for scrutiny, not persuasion, especially in regulated
-                or risk-sensitive systems.
+                Making credibility visible through structure, not persuasion —
+                especially in regulated or risk-sensitive environments.
               </p>
             </div>
 
@@ -157,20 +185,40 @@ export default function AboutPage() {
                 Decision clarity
               </h3>
               <p>
-                Reducing cognitive load so teams and users can act without
-                stitching meaning together.
+                Reducing cognitive load so decisions can be made confidently,
+                without extended debate or clarification.
               </p>
             </div>
           </div>
         </div>
       </section>
+
+      {/* Investor context */}
+      <section className="relative z-20 w-full mx-auto py-6 px-[4vw] md:px-12 lg:px-[8vw] mt-[2vw] md:mt-12">
+        <div className="relative mx-auto lg:max-w-4xl flex flex-col gap-4">
+          <p className="text-neutral-700 text-sm md:text-lg leading-relaxed">
+            In investor conversations, many strong businesses stall not because
+            the idea is weak, but because the reasoning doesn’t fully resolve.
+            Questions repeat, conviction builds slowly, and explanations shift
+            across meetings.
+          </p>
+
+          <p className="text-neutral-700 text-sm md:text-lg leading-relaxed">
+            When that happens, it’s usually a signal that product logic, market
+            framing, and narrative structure aren’t yet aligned, not that the
+            business lacks potential.
+          </p>
+        </div>
+      </section>
+
       {/* Closing reflection */}
       <section className="relative z-20 w-full mx-auto py-10 px-[4vw] md:px-12 lg:px-[8vw] mt-[2vw] md:mt-12">
         <div className="relative mx-auto lg:max-w-4xl flex flex-col gap-6">
           <p className="text-neutral-600 italic text-sm md:text-lg leading-relaxed">
             When product and narrative drift apart, trust thins quietly.
             <br />
-            My work is to realign them before momentum slows.
+            My work is to realign them before decisions harden and momentum
+            slows.
           </p>
 
           <a
